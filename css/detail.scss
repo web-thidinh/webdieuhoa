@@ -1,0 +1,79 @@
+
+.content-right{
+    .web-link{
+
+    }
+    .detail{      
+        .detail-top{
+            .detail-img{
+                .carousel-item{
+                    img{
+                        width:100%;
+                        
+                    }
+                }
+            }
+            .detail-data{
+                .data-head{
+
+                }
+                .data-des{
+
+                }
+                .data-other{
+                    .data-price{
+
+                    }
+                    .data-btn{
+
+                        .cart-box{
+                            display: none;
+                            position: absolute;
+                            width:700px;
+                            top:-10%;
+                            left:-65%;
+                            height:300px;
+                            background-color: #fff;
+                            z-index: 21212;
+                            margin:auto;
+                            i{
+                                position: absolute;
+                                background-color: red;
+                                color:black;
+                                font-size: 30px;
+                                top: -15px;
+                                right: -15px;
+                                border-radius: 15px;                                
+                            }
+                        }
+                    }
+                    .data-add{
+                        img{
+
+                        }
+                        .data-info{
+
+                        }
+                    }
+                }
+            }
+        }
+        .detail-bot{
+            .tab-content{
+
+                &-item{
+                    padding:15px;
+                    font-size: 14px;
+                    p{
+                        color:#1D8ACB;
+                    }
+                    h3{
+                        color:#1D8ACB;
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

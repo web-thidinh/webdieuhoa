@@ -1,0 +1,71 @@
+.notify-content {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.notify-content h1 {
+  color: #222;
+  font-size: 20px;
+}
+
+.notify-content .data-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  border: 1px solid #dedede;
+  padding: 5px 0 5px 10px;
+}
+
+.notify-content .data-page .page-date {
+  margin-right: 15px;
+}
+
+.notify-content .data-page .page-date i {
+  margin-right: 10px;
+}
+
+.notify-content .data-page .page-view i {
+  margin-right: 10px;
+}
+
+.notify-content .notify {
+  margin-top: 20px;
+}
+
+.notify-content .notify-head {
+  font-size: 15px;
+  color: #222;
+  font-weight: bold;
+}
+
+.notify-content .notify-body p {
+  padding: 10px 0;
+}
+
+.notify-content .notify-body .table-notify table tr {
+  font-size: 13px;
+  height: 20px;
+}
+
+.notify-content .notify-body .table-notify table tr th:nth-child(1) {
+  text-align: center;
+}
+
+.notify-content .notify-body .table-notify table tr td:nth-child(1) {
+  text-align: center;
+  width: 40px;
+}
+
+.notify-content .notify-body .table-notify table .tb-head {
+  font-weight: bold;
+  font-size: 14px;
+  height: 30px;
+}
+
+.notify-content .notify-bottom p {
+  font-size: 14px;
+  line-height: 25px;
+}
+/*# sourceMappingURL=notify.css.map */

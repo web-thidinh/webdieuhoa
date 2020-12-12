@@ -1,0 +1,128 @@
+.cart {
+  background-color: #fff;
+  padding: 30px 15px;
+}
+
+.cart .cart-top .payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cart .cart-top .payment .payment-item {
+  width: 33%;
+  padding-left: 35px;
+  position: relative;
+}
+
+.cart .cart-top .payment .payment-item .payment-link {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  line-height: 35px;
+  padding: 5px 0;
+}
+
+.cart .cart-top .payment .payment-item:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: -40px;
+  z-index: 1;
+  border-width: 20px;
+  border-style: solid;
+  border-color: transparent transparent transparent #f0f0f0;
+}
+
+.cart .cart-top .payment .payment-item:nth-child(2) .payment-link:after {
+  border-left-color: #f4f9fd;
+}
+
+.cart .cart-top .payment .payment-item:nth-child(1) {
+  background-color: #f0f0f0;
+}
+
+.cart .cart-top .payment .payment-item:nth-child(2) {
+  background-color: #f4f9fd;
+}
+
+.cart .cart-top .payment .payment-item:nth-child(3) {
+  background-color: #f0f0f0;
+}
+
+.cart .payment-item {
+  margin-top: 20px;
+  border: 1px solid #f0f0f0;
+}
+
+.cart .pay-head {
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+}
+
+.cart .pay-body {
+  font-size: 13px;
+}
+
+.cart .pay-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cart .pay-item-left {
+  color: #222;
+}
+
+.cart .pay-item-right input {
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid #f0f0f0;
+}
+
+.cart .payment-item:nth-child(2) .pay-item {
+  margin-left: 5px;
+}
+
+.cart .payment-item:nth-child(2) .pay-item img {
+  border: 1px solid #ccc;
+  padding: 6px 20px;
+  height: 79px;
+  border-right: 0;
+}
+
+.cart .payment-item:nth-child(2) .pay-item .pay-item-body {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+
+.cart .cart-body-right .payment-item {
+  margin-top: 20px;
+  border: 1px solid #f0f0f0;
+}
+
+.cart .cart-body-right .payment-item .pay-head {
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+}
+
+.cart .cart-body-bot {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.cart .cart-body-bot a {
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: #d60c0c;
+}
+/*# sourceMappingURL=cart.css.map */

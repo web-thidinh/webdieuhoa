@@ -1,0 +1,41 @@
+.content-right .detail .detail-top .detail-img .carousel-item img {
+  width: 100%;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .data-btn .cart-box {
+  display: none;
+  position: absolute;
+  width: 700px;
+  top: -10%;
+  left: -65%;
+  height: 300px;
+  background-color: #fff;
+  z-index: 21212;
+  margin: auto;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .data-btn .cart-box i {
+  position: absolute;
+  background-color: red;
+  color: black;
+  font-size: 30px;
+  top: -15px;
+  right: -15px;
+  border-radius: 15px;
+}
+
+.content-right .detail .detail-bot .tab-content-item {
+  padding: 15px;
+  font-size: 14px;
+}
+
+.content-right .detail .detail-bot .tab-content-item p {
+  color: #1D8ACB;
+}
+
+.content-right .detail .detail-bot .tab-content-item h3 {
+  color: #1D8ACB;
+  font-weight: bold;
+  font-size: 16px;
+}
+/*# sourceMappingURL=detail.css.map */

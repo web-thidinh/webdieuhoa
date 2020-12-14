@@ -2,6 +2,62 @@
   width: 100%;
 }
 
+.content-right .detail .detail-top .detail-data .data-other .modal-show {
+  display: none;
+  z-index: 99999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 800px;
+  top: 20%;
+  background-color: #fff;
+  border: 1px solid #333;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-show-content .modal-show-body {
+  font-size: 12px;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-show-content .modal-show-body .modal-list:nth-child(1) {
+  background-color: #f7f7f7;
+  margin: 10px 0;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .btn-close {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: gray;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-list .modal-item:first-child {
+  width: 50%;
+  padding-left: 10px;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-list .modal-item {
+  width: 15%;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-list .modal-item .modal-link {
+  display: block;
+  padding: 5px 0;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-list .modal-item:last-child {
+  width: 20%;
+}
+
 .content-right .detail .detail-top .detail-data .data-other .data-btn .cart-box {
   display: none;
   position: absolute;

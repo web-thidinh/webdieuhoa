@@ -44,6 +44,15 @@
   padding: 10px 0;
 }
 
+.notify-content .notify-body .table-notify table {
+  width: 100%;
+}
+
+.notify-content .notify-body .table-notify table tr:first-child {
+  background-color: #006699;
+  color: white;
+}
+
 .notify-content .notify-body .table-notify table tr {
   font-size: 13px;
   height: 20px;
@@ -62,6 +71,10 @@
   font-weight: bold;
   font-size: 14px;
   height: 30px;
+}
+
+.notify-content .notify-body .table-notify table .tb-head td:first-child {
+  background-color: #3399cc;
 }
 
 .notify-content .notify-bottom p {

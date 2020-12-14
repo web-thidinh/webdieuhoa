@@ -82,48 +82,62 @@ $(document).ready(function(){
     });
 
 
-    // $('.nav-mobile>li').click(function(){
-    //     if($(this).hasClass('active'))
-    //     {           
-    //         $(this).children('.nav-item-show').slideUp();
-    //         $(this).removeClass('active');      
-    //         $(this).children('.mobile-show').removeClass('rotate');
-    //     }
-    //     else
-    //     {
-    //         $('.nav-item-show').slideUp();
-    //         $(this).children('.nav-item-show').slideDown();
-    //         $('.nav-mobile>li').removeClass('active');          
-    //         $(this).addClass('active');
-    //         $(this).children('.mobile-show').addClass('rotate');
-            
-    //         // $('.mobile-show').removeClass('rotate');
-    //     }
-    // });
-
-
-    $('.mobile-show').click(function(){
-        if($(this).hasClass('active')){
-            
-        }else{
+    $('.nav-mobile>li').click(function(){
+        if($(this).hasClass('active'))
+        {           
+            $(this).children('.nav-item-show').slideUp();
+            $(this).removeClass('active');      
+            $(this).children('.mobile-show').removeClass('rotate');
+        }
+        else
+        {
+            $('.nav-item-show').slideUp();
             $(this).children('.nav-item-show').slideDown();
+            $('.nav-mobile>li').removeClass('active');          
+            $(this).addClass('active');
+            $(this).children('.mobile-show').addClass('rotate');
+            
+            // $('.mobile-show').removeClass('rotate');
         }
     });
 
 
+    // $('.mobile-show').click(function(){
+    //     if($(this).hasClass('active')){
+            
+    //     }else{
+    //         $(this).children('.nav-item-show').slideDown();
+    //     }
+    // });
+
+    // $('.nav-mobile>li').click(function(){
+    //         if($(this).hasClass('active'))
+    //         {           
+    //             // $(this).children('.nav-item-show').slideUp();
+    //             // $(this).removeClass('active');      
+    //             // $(this).children('.mobile-show').removeClass('rotate');
+    //         }
+    //         else
+    //         {
+    //             $(this).children('.mobile-show').click(function(){
+    //                 $(this).children('.nav-item-show').slideDown();
+    //             });
+    //             // $('.nav-item-show').slideUp();
+    //             // $('.nav-mobile>li').children('.nav-item-show').slideDown();
+    //             // $('.nav-mobile>li').removeClass('active');          
+    //             // $(this).addClass('active');
+    //             // $(this).children('.mobile-show').addClass('rotate');
+                
+    //         }
+    //     });
 
     
     // mobile show
 
 
 
-    // $('.data-btn').click(function(){
-    //     $('.header-overlay').show();
-    //     $(this).children('.cart-box').slideDown();  
-           
-    // });
-    // $('.close-cart').click(function(){
-    //     $('.header-overlay').hide();
-    //     $('.cart-box').hide();
-    // });  
+    $('.buy-btn').click(function(){
+        $('.header-overlay').show();
+        $('.modal-show').show();
+    });
 });

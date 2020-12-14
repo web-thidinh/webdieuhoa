@@ -24,6 +24,66 @@
                     .data-price{
 
                     }
+                    button{
+
+                    }
+                    .modal-show{
+                        display: none;
+                        z-index: 99999;
+                        position: absolute;
+                        top:0;
+                        left:0;
+                        width:100%;
+                        max-width: 800px;
+                        top:20%;
+                        background-color: #fff;
+                        border:1px solid #333;
+                        .modal-show-content{
+                            .modal-show-head{
+
+                            }
+                            .modal-show-body{
+                                font-size: 12px;
+                                .modal-list:nth-child(1){
+                                    background-color: #f7f7f7;
+                                    margin:10px 0;
+                                }
+                                .modal-list:nth-child(2){
+                                    
+                                }
+                                .modal-list:nth-child(3){
+                                    
+                                }
+                            }
+                        }
+                        .btn-close{
+                            position: absolute;
+                            top:-8px;
+                            right:-8px;
+                            color:#fff; 
+                            cursor: pointer;
+                            border-radius: 10px;
+                            background-color: gray;
+                        }
+                        .modal-list{
+                            display: flex;
+                            .modal-item:first-child{
+                                width:50%;
+                                padding-left:10px;
+                            }
+                            .modal-item{
+                                width:15%;
+                                .modal-link{
+                                    display: block;
+                                    padding:5px 0;
+                                }
+                            }
+                            .modal-item:last-child{
+                                width:20%;
+                            }
+
+                        }
+                    }
                     .data-btn{
 
                         .cart-box{

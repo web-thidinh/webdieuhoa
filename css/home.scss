@@ -65,35 +65,7 @@ header{
             .nav-mobile{
                 &-item{
                     position: relative;
-                    border-bottom:1px solid rgba(0,0,0,0.3);
-                    .mobile-show{
-                        
-                    }
-                    .nav-item-show{                       
-                        display: none;
-                        width:100%;
-                        .show-item{
-                            &-link{
-                                display: block;
-                                color:#fff;
-                                padding:5px 0 5px 10px;
-                                font-size: 13px;
-                                border-bottom:1px solid rgba(0,0,0,0.3);
-                                border-top:1px solid rgba(0,0,0,0.3);
-                            }
-                            &-child{
-                                .child-item{
-                                    .child-link{
-                                        display: block;
-                                        padding:5px 0 5px 20px;
-                                        font-size: 13px;
-                                        color:#fff;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    
+                    border-bottom:1px solid rgba(0,0,0,0.3);                                                    
                 }
                 .nav-mobile-item.active .nav-mobile-link{
                     background-color: #404040;
@@ -109,17 +81,41 @@ header{
                 }
                 .mobile-show{
                     display: block;
+                    position: absolute;
+                    right:0;
+                    top:0;
                     color:#fff;
                     border-left:1px solid rgba(0,0,0,0.3);
-                    position: absolute;
-                    top:0;
-                    right:0;
                     padding:8px 15px;
                     &:hover{
                         background-color: #404040;
                     }
+                   
                     
-                    
+                }
+                .nav-item-show{                       
+                    display: none;
+                    width:100%;
+                    .show-item{
+                        &-link{
+                            display: block;
+                            color:#fff;
+                            padding:5px 0 5px 10px;
+                            font-size: 13px;
+                            border-bottom:1px solid rgba(0,0,0,0.3);
+                            border-top:1px solid rgba(0,0,0,0.3);
+                        }
+                        &-child{
+                            .child-item{
+                                .child-link{
+                                    display: block;
+                                    padding:5px 0 5px 20px;
+                                    font-size: 13px;
+                                    color:#fff;
+                                }
+                            }
+                        }
+                    }
                 }
                 .mobile-show.rotate{
                     border-top:1px solid rgba(0,0,0,0.3);

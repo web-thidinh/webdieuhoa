@@ -322,16 +322,6 @@
   font-size: 30px;
 }
 
-.content .grid .content-right .detail .detail-top .detail-data .data-other a {
-  font-size: 13px;
-  color: white;
-  border-radius: 5px;
-  display: inline-block;
-  background-color: #ef4136;
-  line-height: 30px;
-  padding: 0 15px;
-}
-
 .content .grid .content-right .detail .detail-top .detail-data .data-other .data-add {
   margin-top: 20px;
   font-size: 13px;

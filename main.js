@@ -59,6 +59,9 @@ $(document).ready(function(){
         window.location.href = ('product.html');
     });
 
+
+
+
     // mobile show
     $('.header-icon').click(function(){
         // $('.header-icon').addClass('active'); 
@@ -79,24 +82,37 @@ $(document).ready(function(){
     });
 
 
-    $('.nav-mobile>li').click(function(){
-        if($(this).hasClass('active'))
-        {           
-            $(this).children('.nav-item-show').slideUp();
-            $(this).removeClass('active');      
-            $(this).children('.mobile-show').removeClass('rotate');
-        }
-        else
-        {
-            $('.nav-item-show').slideUp();
-            $(this).children('.nav-item-show').slideDown();
-            $('.nav-mobile>li').removeClass('active');          
-            $(this).addClass('active');
-            $(this).children('.mobile-show').addClass('rotate');
+    // $('.nav-mobile>li').click(function(){
+    //     if($(this).hasClass('active'))
+    //     {           
+    //         $(this).children('.nav-item-show').slideUp();
+    //         $(this).removeClass('active');      
+    //         $(this).children('.mobile-show').removeClass('rotate');
+    //     }
+    //     else
+    //     {
+    //         $('.nav-item-show').slideUp();
+    //         $(this).children('.nav-item-show').slideDown();
+    //         $('.nav-mobile>li').removeClass('active');          
+    //         $(this).addClass('active');
+    //         $(this).children('.mobile-show').addClass('rotate');
             
-            // $('.mobile-show').removeClass('rotate');
+    //         // $('.mobile-show').removeClass('rotate');
+    //     }
+    // });
+
+
+    $('.mobile-show').click(function(){
+        if($(this).hasClass('active')){
+            
+        }else{
+            $(this).children('.nav-item-show').slideDown();
         }
     });
+
+
+
+    
     // mobile show
 
 

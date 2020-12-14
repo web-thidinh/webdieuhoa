@@ -33,6 +33,9 @@ $(document).ready(function(){
     $('.navbar-item:nth-child(6) .navbar-link').click(function(){
         window.location.href = ('notify.html');
     });
+    $('.header-cart').click(function(){
+        window.location.href = ('cart.html');
+    });
     //control navbar
 
     //control navbar left

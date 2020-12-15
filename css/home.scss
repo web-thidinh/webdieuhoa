@@ -1434,3 +1434,11 @@ footer{
         }
     }
 }
+@media (max-width:350px){
+    .mobile-search {
+        padding-right:10px;
+        input{
+            width:200px !important;
+        }
+    }
+}

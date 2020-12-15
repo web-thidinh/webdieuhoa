@@ -1463,4 +1463,13 @@ footer .coppy-right a:hover {
     width: 50% !important;
   }
 }
+
+@media (max-width: 350px) {
+  .mobile-search {
+    padding-right: 10px;
+  }
+  .mobile-search input {
+    width: 200px !important;
+  }
+}
 /*# sourceMappingURL=home.css.map */

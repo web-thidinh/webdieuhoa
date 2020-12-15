@@ -84,27 +84,6 @@ header .header-top .header-mobile .nav-mobile-item {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-header .header-top .header-mobile .nav-mobile-item .nav-item-show {
-  display: none;
-  width: 100%;
-}
-
-header .header-top .header-mobile .nav-mobile-item .nav-item-show .show-item-link {
-  display: block;
-  color: #fff;
-  padding: 5px 0 5px 10px;
-  font-size: 13px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-header .header-top .header-mobile .nav-mobile-item .nav-item-show .show-item-child .child-item .child-link {
-  display: block;
-  padding: 5px 0 5px 20px;
-  font-size: 13px;
-  color: #fff;
-}
-
 header .header-top .header-mobile .nav-mobile .nav-mobile-item.active .nav-mobile-link {
   background-color: #404040;
 }
@@ -122,16 +101,37 @@ header .header-top .header-mobile .nav-mobile-link:hover {
 
 header .header-top .header-mobile .nav-mobile .mobile-show {
   display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
   color: #fff;
   border-left: 1px solid rgba(0, 0, 0, 0.3);
-  position: absolute;
-  top: 0;
-  right: 0;
   padding: 8px 15px;
 }
 
 header .header-top .header-mobile .nav-mobile .mobile-show:hover {
   background-color: #404040;
+}
+
+header .header-top .header-mobile .nav-mobile .nav-item-show {
+  display: none;
+  width: 100%;
+}
+
+header .header-top .header-mobile .nav-mobile .nav-item-show .show-item-link {
+  display: block;
+  color: #fff;
+  padding: 5px 0 5px 10px;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+header .header-top .header-mobile .nav-mobile .nav-item-show .show-item-child .child-item .child-link {
+  display: block;
+  padding: 5px 0 5px 20px;
+  font-size: 13px;
+  color: #fff;
 }
 
 header .header-top .header-mobile .nav-mobile .mobile-show.rotate {
@@ -1753,16 +1753,6 @@ footer .coppy-right a:hover {
 .content .grid .content-right .detail .detail-top .detail-data .data-other .data-price span {
   color: red;
   font-size: 30px;
-}
-
-.content .grid .content-right .detail .detail-top .detail-data .data-other a {
-  font-size: 13px;
-  color: white;
-  border-radius: 5px;
-  display: inline-block;
-  background-color: #ef4136;
-  line-height: 30px;
-  padding: 0 15px;
 }
 
 .content .grid .content-right .detail .detail-top .detail-data .data-other .data-add {

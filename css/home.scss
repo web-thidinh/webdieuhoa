@@ -240,7 +240,7 @@ header{
                             height: auto;
                             position: absolute;
                             display: none;
-                            z-index: 1;
+                            z-index: 20;
                             left:0;
                             background-color: white; 
                             .dropdown-list{
@@ -1379,6 +1379,34 @@ footer{
         .project-item{
             width:33.3333% !important;
         }
+    }
+    .product-name a,.product-buy a,.project-content a,.news-content a,.news-content p{
+        font-size: 16px !important;
+    }
+    .news-heading a{
+        padding-left:10px;
+    }
+    .slide-bot-info a{
+        font-size: 18px !important;
+    }
+    .slide-bot-info p{
+        font-size: 16px !important;
+    }
+    footer .heading{
+        font-size: 20px;
+    }
+    .body-list-item a{
+        font-size: 16px !important;
+    }
+    footer .body p{
+        font-size: 16px !important;
+    }
+    .coppy-right{
+        text-align: center;
+    }
+    .phonering {
+        bottom: 65px;
+        right: 120px;
     }
 }
 

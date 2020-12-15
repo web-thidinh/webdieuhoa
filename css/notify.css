@@ -45,10 +45,16 @@
 }
 
 .notify-content .notify-body .table-notify table {
+  border: 1px solid rgba(0, 0, 0, 0.3);
   width: 100%;
 }
 
 .notify-content .notify-body .table-notify table tr:first-child {
+  background-color: #006699;
+  color: white;
+}
+
+.notify-content .notify-body .table-notify table tr:nth-child(2) {
   background-color: #006699;
   color: white;
 }
@@ -62,9 +68,22 @@
   text-align: center;
 }
 
+.notify-content .notify-body .table-notify table tr th:nth-child(3), .notify-content .notify-body .table-notify table tr th:nth-child(4) {
+  text-align: center;
+}
+
 .notify-content .notify-body .table-notify table tr td:nth-child(1) {
   text-align: center;
   width: 40px;
+}
+
+.notify-content .notify-body .table-notify table tr td:last-child {
+  width: 100px;
+  text-align: center;
+}
+
+.notify-content .notify-body .table-notify table tr td:nth-child(3), .notify-content .notify-body .table-notify table tr td:nth-child(4) {
+  text-align: center;
 }
 
 .notify-content .notify-body .table-notify table .tb-head {

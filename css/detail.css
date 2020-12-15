@@ -2,17 +2,35 @@
   width: 100%;
 }
 
+.content-right .detail .detail-top .detail-data .data-other .buy-btn {
+  background-color: #d60c0c;
+}
+
 .content-right .detail .detail-top .detail-data .data-other .modal-show {
   display: none;
   z-index: 99999;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  position: fixed;
+  width: 90%;
+  left: 21%;
   max-width: 800px;
   top: 20%;
   background-color: #fff;
   border: 1px solid #333;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-show-content {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 40px;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-show-content .modal-show-head {
+  padding: 15px 10px;
+  font-size: 20px;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-show-content .modal-show-head i {
+  color: royalblue;
+  margin-right: 20px;
 }
 
 .content-right .detail .detail-top .detail-data .data-other .modal-show .modal-show-content .modal-show-body {
@@ -22,6 +40,39 @@
 .content-right .detail .detail-top .detail-data .data-other .modal-show .modal-show-content .modal-show-body .modal-list:nth-child(1) {
   background-color: #f7f7f7;
   margin: 10px 0;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-show-content .modal-show-body .modal-list:nth-child(2) .modal-item:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-show-content .modal-show-body .modal-list:nth-child(2) .modal-item:first-child img {
+  width: 30%;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-show-content .modal-show-body .modal-list:nth-child(2) .modal-item:first-child .modal-item-body button {
+  background-color: #fff;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-show-action {
+  padding: 20px;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-show-action .modal-price {
+  text-align: center;
+}
+
+.content-right .detail .detail-top .detail-data .data-other .modal-show .modal-show-action .modal-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .content-right .detail .detail-top .detail-data .data-other .modal-show .btn-close {

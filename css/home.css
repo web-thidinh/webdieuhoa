@@ -310,6 +310,10 @@ header .header-bot .grid .header-navbar .navbar-list .navbar-item .dropdown-prod
   padding: 4px 0;
 }
 
+header .header-bot .grid .header-navbar .navbar-list .navbar-item .dropdown-product .dropdown-list .product-type .type-list .type-item:hover {
+  color: red;
+}
+
 header .header-bot .grid .header-navbar .navbar-list .navbar-hover:hover .dropdown-product {
   display: block;
 }
@@ -878,6 +882,7 @@ footer .coppy-right a:hover {
 .phonering {
   position: fixed;
   width: 100px;
+  z-index: 30;
   height: 100px;
   bottom: 80px;
 }

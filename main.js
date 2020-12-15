@@ -140,6 +140,10 @@ $(document).ready(function(){
         $('.header-overlay').show();
         $('.modal-show').show();
     });
+    $('.btn-close').click(function(){
+        $('.header-overlay').hide();
+        $('.modal-show').hide();
+    });
 
 
 

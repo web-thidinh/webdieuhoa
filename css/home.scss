@@ -260,9 +260,13 @@ header{
                                     }
                                     .type{
                                         color:#444;
-                                        &-list{                                          
+                                        &-list{   
+                                                                                  
                                             .type-item{
                                                 padding:4px 0;
+                                                &:hover{
+                                                    color:red;
+                                                } 
                                             }
                                         }
                                     }
@@ -774,6 +778,7 @@ footer{
 .phonering{
     position: fixed;
     width:100px;
+    z-index: 30;
     height: 100px;
     bottom:80px;
     .phonering-alo-phone.phonering-alo-static {

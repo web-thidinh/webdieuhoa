@@ -274,7 +274,7 @@ header .header-bot .grid .header-navbar .navbar-list .navbar-item .dropdown-prod
   height: auto;
   position: absolute;
   display: none;
-  z-index: 1;
+  z-index: 20;
   left: 0;
   background-color: white;
 }
@@ -308,6 +308,10 @@ header .header-bot .grid .header-navbar .navbar-list .navbar-item .dropdown-prod
 
 header .header-bot .grid .header-navbar .navbar-list .navbar-item .dropdown-product .dropdown-list .product-type .type-list .type-item {
   padding: 4px 0;
+}
+
+header .header-bot .grid .header-navbar .navbar-list .navbar-item .dropdown-product .dropdown-list .product-type .type-list .type-item:hover {
+  color: red;
 }
 
 header .header-bot .grid .header-navbar .navbar-list .navbar-hover:hover .dropdown-product {
@@ -878,6 +882,7 @@ footer .coppy-right a:hover {
 .phonering {
   position: fixed;
   width: 100px;
+  z-index: 30;
   height: 100px;
   bottom: 80px;
 }
@@ -1338,6 +1343,10 @@ footer .coppy-right a:hover {
   .header-right {
     padding-right: 15px;
   }
+  footer .grid .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 1025px) {
@@ -1414,6 +1423,34 @@ footer .coppy-right a:hover {
   .project-body .project-item {
     width: 33.3333% !important;
   }
+  .product-name a, .product-buy a, .project-content a, .news-content a, .news-content p {
+    font-size: 16px !important;
+  }
+  .news-heading a {
+    padding-left: 10px;
+  }
+  .slide-bot-info a {
+    font-size: 18px !important;
+  }
+  .slide-bot-info p {
+    font-size: 16px !important;
+  }
+  footer .heading {
+    font-size: 20px;
+  }
+  .body-list-item a {
+    font-size: 16px !important;
+  }
+  footer .body p {
+    font-size: 16px !important;
+  }
+  .coppy-right {
+    text-align: center;
+  }
+  .phonering {
+    bottom: 65px;
+    right: 120px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1428,6 +1465,15 @@ footer .coppy-right a:hover {
   }
   .project-body .project-item {
     width: 50% !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .mobile-search {
+    padding-right: 10px;
+  }
+  .mobile-search input {
+    width: 200px !important;
   }
 }
 

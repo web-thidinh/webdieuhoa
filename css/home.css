@@ -720,6 +720,11 @@ header .header-bot .grid .header-navbar .navbar-list .navbar-hover:hover .dropdo
   margin-top: 50px;
 }
 
+.main-content .news .grid .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .main-content .news .grid .row .news-item .news-heading {
   font-size: 18px;
   font-weight: bold;
@@ -1342,6 +1347,14 @@ footer .coppy-right a:hover {
   }
   .header-right {
     padding-right: 15px;
+  }
+  .news .grid .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  footer .grid .row {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 

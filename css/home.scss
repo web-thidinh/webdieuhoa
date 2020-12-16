@@ -628,6 +628,8 @@ header{
         margin-top:50px;
         .grid{
             .row{
+                margin-left: 0;
+                margin-right: 0;
                 .news-item{
                     .news-heading{
                         font-size: 18px;
@@ -1282,6 +1284,22 @@ footer{
     }
     .header-right{
         padding-right: 15px;
+    }
+    .news{
+        .grid{
+            .row{
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    }
+    footer{
+        .grid{
+            .row{
+                margin-left:0;
+                margin-right:0;
+            }
+        }
     }
 }
 @media(max-width:1025px){
